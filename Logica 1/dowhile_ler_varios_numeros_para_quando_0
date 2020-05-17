@@ -1,0 +1,23 @@
+
+package ldp1n;
+
+import javax.swing.JOptionPane;
+
+public class LDP1N {
+
+
+    public static void main(String[] args) {
+        
+        int n;
+        String var;
+        
+        do{
+            var=JOptionPane.showInputDialog("digite um valor");
+            n= Integer.parseInt(var);
+        }while(n!=0);
+                
+            
+        
+    }
+    
+}
